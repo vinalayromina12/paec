@@ -1,0 +1,230 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huellitas Comunitarias - Donaciones</title>
+
+    <style>
+        /* Diseño general */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #FFF8EF;
+            color: #493B32;
+        }
+
+        /* Encabezado */
+        header {
+            background-color: #668B68;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        header h1 {
+            font-size: 36px;
+        }
+
+        /* Menú de navegación */
+        nav {
+            margin-top: 20px;
+        }
+
+        nav a {
+            background-color: #496B4B;
+            color: white;
+            text-decoration: none;
+            padding: 12px 20px;
+            margin: 5px;
+            border-radius: 8px;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            background-color: #D9A66F;
+            color: #493B32;
+        }
+
+        /* Contenido principal */
+        main {
+            max-width: 1000px;
+            margin: auto;
+            padding: 25px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #496B4B;
+            text-align: center;
+        }
+
+        /* Tarjetas de donaciones */
+        .donativos {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 25px;
+        }
+
+        .tarjeta {
+            background-color: white;
+            width: 280px;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 3px 10px #D9D0C5;
+            box-sizing: border-box;
+        }
+
+        .tarjeta h3 {
+            color: #668B68;
+            text-align: center;
+        }
+
+        .tarjeta img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .tarjeta li {
+            margin-bottom: 10px;
+        }
+
+        /* Centro de acopio */
+        .acopio {
+            background-color: #F1E2CF;
+            padding: 25px;
+            border-radius: 12px;
+        }
+
+        .acopio p {
+            font-size: 17px;
+            line-height: 1.7;
+        }
+
+        /* Pie de página */
+        footer {
+            background-color: #496B4B;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        /* Adaptación para celulares */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 28px;
+            }
+
+            nav a {
+                margin: 5px;
+                padding: 10px;
+            }
+
+            .tarjeta {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Encabezado y menú de navegación -->
+    <header>
+        <h1>Huellitas Comunitarias</h1>
+        <p>Tu ayuda puede cambiar una vida.</p>
+
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="adopciones.html">Adopciones</a>
+            <a href="donaciones.html">Donaciones</a>
+        </nav>
+    </header>
+
+    <!-- Información de las donaciones -->
+    <main>
+        <section>
+            <h2>¿Qué necesitamos?</h2>
+
+            <p>
+                Puedes apoyar a los animales mediante donaciones
+                de productos que ayudan a mantenerlos saludables,
+                limpios y bien alimentados.
+            </p>
+
+            <div class="donativos">
+
+                <!-- Donaciones de alimentos -->
+                <article class="tarjeta">
+                    <img src="imagenes/"
+                         alt="Alimento para perros y gatos">
+
+                    <h3>Alimentos</h3>
+                    <ul>
+                        <li>Croquetas para perros</li>
+                        <li>Alimento para gatos</li>
+                        <li>Alimento para cachorros</li>
+                    </ul>
+                </article>
+
+                <!-- Donaciones de descanso -->
+                <article class="tarjeta">
+                    <img src="imagenes/cobijas.jpg"
+                         alt="Cobijas y camas para mascotas">
+
+                    <h3>Artículos de descanso</h3>
+                    <ul>
+                        <li>Cobijas limpias</li>
+                        <li>Camas para mascotas</li>
+                        <li>Toallas en buen estado</li>
+                    </ul>
+                </article>
+
+                <!-- Donaciones de limpieza -->
+                <article class="tarjeta">
+                    <img src="imagenes/donn.jpg"
+                         alt="Artículos de limpieza">
+
+                    <h3>Artículos de limpieza</h3>
+                    <ul>
+                        <li>Jabón y detergente</li>
+                        <li>Bolsas para basura</li>
+                        <li>Productos de limpieza etiquetados</li>
+                    </ul>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Datos del centro de acopio -->
+        <section class="acopio">
+            <h2>Centro de acopio</h2>
+
+            <p><strong>Lugar:</strong> Plantel escolar, área por confirmar.</p>
+            <p><strong>Fecha:</strong> Por confirmar con el equipo PAEC.</p>
+            <p><strong>Horario:</strong> Por confirmar.</p>
+
+            <p>
+                Antes de llevar tus donaciones, verifica con el equipo
+                el lugar, la fecha y el horario definitivos.
+                ¡Cada aportación cuenta!
+            </p>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>Huellitas Comunitarias | Proyecto PAEC 2026</p>
+    </footer>
+
+</body>
+</html>
